@@ -1,7 +1,7 @@
-from fastapi import FastAPI
 
-app = FastAPI()
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
+while(True) :
+    answer = input("what do you want?")
+    if(answer == 'quit') :
+        break
+    print(answer)
